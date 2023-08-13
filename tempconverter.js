@@ -6,7 +6,7 @@ let btn = document.getElementById("btn")
 cel.addEventListener('input', function(){
     let c = this.value;
     let f = (c*9/5) + 32;
-    let k = 273.15 + c;
+    let k = 273.15 + c*1.0;
 
     fah.value = f;
     kel.value = k;
