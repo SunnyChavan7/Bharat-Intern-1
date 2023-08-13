@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter - Sunny</title>
+    <link rel="stylesheet" href="tempconverter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--<script src="tempconverter.js"></script> -->
+    <div class="container">
+        <div class="title">
+            <p class="temp-icon1"><i class="fa-solid fa-temperature-arrow-up fa-beat-fade"></i></p>
+            <h1>TEMPERATURE CONVERTER</h1>
+            <p class="temp-icon2"><i class="fa-solid fa-temperature-arrow-down fa-beat-fade"></i></p>
+        </div>
+        <div id="celcius">
+            <span class='icon'>&#8451</span>
+            <input type="number" value="" id="cel"  placeholder="Celsius" />
+        </div>
+        <div id="fahrenheit">
+            <span class='icon'>&#8457</span>
+            <input type="number" value="" id="fah" placeholder="Fahrenheit" />
+        </div>
+        <div id="kelvin">
+            <span class='icon'>&#8490</span>
+            <input type="number" value="" id="kel" placeholder="Kelvin" /> 
+        </div>
+        <div class="button">
+            <button id="btn">CLEAR</button>
+        </div>
+    </div>
+    <script src="tempconverter.js"></script>
+</body>
+</html>
